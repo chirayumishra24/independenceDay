@@ -3,16 +3,16 @@ import React, { useState, useEffect } from 'react';
 // Maps chapters to their dominant hero image
 // 0: Home/general, 1-4: Chapters
 const imageMappings = {
-  0: '/backgrounds/india-gate.png',
-  1: '/backgrounds/taj-mahal.png',
-  2: '/backgrounds/parliament.png',
-  3: '/backgrounds/freedom-fighters.png',
-  4: '/backgrounds/republic-parade.png'
+  0: '/backgrounds/freedom-struggle.png',
+  1: '/backgrounds/dandi-march.png',
+  2: '/backgrounds/bhagat-singh.png',
+  3: '/backgrounds/rani-lakshmibai.png',
+  4: '/backgrounds/freedom-fighters.png'
 };
 
 const extraImages = [
-  '/backgrounds/red-fort.png',
-  '/backgrounds/qutub-minar.png'
+  '/backgrounds/india-gate.png',
+  '/backgrounds/republic-parade.png'
 ];
 
 const allImages = [...Object.values(imageMappings), ...extraImages];
